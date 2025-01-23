@@ -1,4 +1,8 @@
 
+.media-he-lo{
+  display: none;
+}
+
 
 .body-back-img{
   background-image: url(../img/bg.png);
@@ -290,14 +294,24 @@ margin-top: 50px;
   }
   .navbar{
    flex-direction: column;
+   padding: 2vw;
+   border-bottom: 2px solid #FEA301;
+  }
+
+  .media-he-lo{
+    display: block;
+    max-width: 15vw;
+    margin-left: 50vw;
   }
 
   .banner{
   flex-direction: column;
   flex-direction: column-reverse;
+   margin-top: 30vw;
   }
   .banner-h1-p-btn{
     text-align: center;
+   
   }
   .banner-h1{
    font-weight: bold;
